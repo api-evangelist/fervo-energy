@@ -1,7 +1,30 @@
 aid: fervo-energy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fervo-energy.png
 name: Fervo Energy
-description: Fervo Energy is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fervo Energy is a next-generation geothermal power company headquartered in
+  Houston, Texas, that generates carbon-free, always-on electricity through
+  enhanced geothermal systems (EGS). Founded in 2017 by Tim Latimer and Jack
+  Norbeck, Fervo adapts horizontal drilling, distributed fiber-optic sensing,
+  and advanced subsurface data analytics from the oil and gas industry to make
+  geothermal energy viable in previously uneconomic locations. Its projects
+  include the Project Red pilot in Nevada and the flagship 500 MW Cape Station
+  development in Beaver County, Utah. Fervo trades on Nasdaq under the ticker
+  FRVO and is backed by investors including DCVC. This is a company profile in
+  the API Evangelist network surfaced from the DCVC portfolio; Fervo Energy is a
+  physical energy-infrastructure company and publishes no public developer API,
+  SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/fervo-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Energy
+- Geothermal
+- Clean Energy
+- Renewable Energy
+- Enhanced Geothermal Systems
+- Climate Tech
+- Power Generation
 apis: []
+common:
+- type: Website
+  url: https://fervoenergy.com/
+- type: About
+  url: https://fervoenergy.com/about/
+- type: Technology
+  url: https://fervoenergy.com/technology/
+- type: Blog
+  url: https://fervoenergy.com/newsroom/
+- type: Careers
+  url: https://fervoenergy.com/careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/fervo-energy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
