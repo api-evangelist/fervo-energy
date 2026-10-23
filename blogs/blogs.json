@@ -9,11 +9,11 @@
       "method": "discovered"
     },
     {
-      "source": "https://fervoenergy.com/technology/",
-      "feed_url": "https://fervoenergy.com/feed/",
+      "source": "https://fervoenergy.com/newsroom/feed/",
+      "feed_url": "https://fervoenergy.com/newsroom/feed/",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "feed"
     },
     {
       "source": "https://fervoenergy.com/feed/",
@@ -23,6 +23,6 @@
       "method": "feed"
     }
   ],
-  "post_count": 12,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 13,
+  "fetched": "2026-10-17T14:53:57Z"
 }
